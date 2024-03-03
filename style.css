@@ -10,7 +10,7 @@ body {
   padding: 0 10px;
   min-height: 100vh;
   align-items: center;
-  background: #000000;
+  background:#1e546b;
   justify-content: center;
 }
 .wrapper {
@@ -30,6 +30,7 @@ header h1 {
   font-size: 21px;
   font-weight: 900;
   color: rgb(0, 81, 255);
+  text-align: center;
 }
 
 .wrapper .form {
@@ -44,8 +45,8 @@ header h1 {
   transition: 0.1s ease;
 }
 .form input {
-  font-size: 12px;
-  padding: 0 17px;
+  font-size: 15px;
+  padding: 5px 17px;
   border: 1px solid #999;
 }
 .form input:focus {
@@ -62,9 +63,9 @@ header h1 {
   background: #3498db;
 }
 .form button:hover {
-  color: #3498db;
+  color: #fff;
 
-  background: #fff;
+  background: #011523;
 }
 .qr-code {
   opacity: 0;
