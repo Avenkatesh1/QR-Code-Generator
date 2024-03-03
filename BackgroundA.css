@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    cursor: url("https://i.ibb.co/6bycCv7/Ellipse-4.png"), default;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #030302;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(25, 40px);
+    grid-template-rows: repeat(12, 40px);
+    grid-gap: 1.5rem;
+  }
+  .wrapper .item {
+    background-color: #00d8fe;
+  }
+  
+  .item:hover {
+    box-shadow: 0 0 12px 9px white;
+  }
